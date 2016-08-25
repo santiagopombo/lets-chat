@@ -1,5 +1,7 @@
 applications:
-- name: lets-chat
+- name: chat_app_test
+  host: chat
+  domain: alvaro.consoledemo.name
   memory: 256M
   services:
     ${name}-db:
